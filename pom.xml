@@ -14,6 +14,8 @@
         <module>consul_client</module>
         <module>users</module>
         <module>orders</module>
+        <module>fegin_product</module>
+        <module>fegin_pay</module>
     </modules>
 
     <parent>
