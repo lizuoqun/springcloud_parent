@@ -26,6 +26,7 @@ public class PayController {
         String params = productClient.params("huangyueyue",10);
         String path = productClient.path("this is name");
         String obj = productClient.obj(new Product(1L,"商品",new Date()));
-        return product + "    "+ params +"    "+ path + obj;
+        String arr = productClient.arr(new String[]{"12","25","29"});
+        return product + "    "+ params +"    "+ path + obj + arr;
     }
 }

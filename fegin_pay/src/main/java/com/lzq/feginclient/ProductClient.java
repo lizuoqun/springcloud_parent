@@ -47,4 +47,12 @@ public interface ProductClient {
      * */
     @PostMapping(value = "/obj")
     String obj(@RequestBody Product product);
+
+    /**
+     * 数组参数
+     * @param ids
+     * @return String
+     * */
+    @PostMapping(value = "/arr")
+    String arr(@RequestParam String [] ids);
 }

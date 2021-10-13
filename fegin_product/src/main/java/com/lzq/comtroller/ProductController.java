@@ -3,6 +3,8 @@ package com.lzq.comtroller;
 import com.lzq.entity.Product;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.PostConstruct;
+
 /**
  * @author lizuoqun
  * @version 1.0
@@ -29,5 +31,15 @@ public class ProductController {
     @PostMapping(value = "/obj")
     public String obj(@RequestBody Product product){
         return product.toString();
+    }
+
+    @PostMapping(value = "/arr")
+    public String arr(@RequestParam String [] ids){
+        String res = "";
+        for (String id : ids){
+            // 数组遍历
+            res += id;
+        }
+        return res;
     }
 }
