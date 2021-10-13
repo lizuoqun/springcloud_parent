@@ -1,7 +1,7 @@
 package com.lzq.comtroller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.lzq.entity.Product;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author lizuoqun
@@ -14,5 +14,20 @@ public class ProductController {
     @GetMapping("/getProduct")
     public String getProduct(){
         return "product ok!";
+    }
+
+    @GetMapping(value = "/params")
+    public String params(@RequestParam String name, @RequestParam Integer age){
+        return name + age;
+    }
+
+    @GetMapping(value = "/path/{name}")
+    public String path(@PathVariable String name){
+        return name;
+    }
+
+    @PostMapping(value = "/obj")
+    public String obj(@RequestBody Product product){
+        return product.toString();
     }
 }

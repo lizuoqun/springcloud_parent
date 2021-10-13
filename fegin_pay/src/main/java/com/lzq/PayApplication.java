@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients // 开启fegin客户端调用
+@EnableFeignClients
 public class PayApplication {
     public static void main(String[] args) {
         SpringApplication.run(PayApplication.class,args);

@@ -1,2 +1,3 @@
+com\lzq\entity\Product.class
 com\lzq\comtroller\ProductController.class
 com\lzq\ProductApplication.class
