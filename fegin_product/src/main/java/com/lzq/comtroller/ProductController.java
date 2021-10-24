@@ -4,6 +4,7 @@ import com.lzq.entity.Product;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
+import java.util.Date;
 
 /**
  * @author lizuoqun
@@ -41,5 +42,10 @@ public class ProductController {
             res += id;
         }
         return res;
+    }
+
+    @GetMapping(value = "/product")
+    public Product product(@RequestParam Long id){
+        return new Product(id,"笔墨纸砚",new Date());
     }
 }

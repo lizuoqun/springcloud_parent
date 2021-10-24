@@ -1,4 +1,6 @@
-com\lzq\entity\Product.class
 com\lzq\feginclient\ProductClient.class
-com\lzq\controller\payController.class
+com\lzq\feginclient\HystrixFeign.class
+com\lzq\feginclient\HystrixService.class
+com\lzq\controller\PayController.class
+com\lzq\entity\Product.class
 com\lzq\PayApplication.class

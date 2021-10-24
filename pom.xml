@@ -16,6 +16,8 @@
         <module>orders</module>
         <module>fegin_product</module>
         <module>fegin_pay</module>
+        <module>hystrix_product</module>
+        <module>Hystrix_Dashboard</module>
     </modules>
 
     <parent>

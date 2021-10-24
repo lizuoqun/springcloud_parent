@@ -55,4 +55,12 @@ public interface ProductClient {
      * */
     @PostMapping(value = "/arr")
     String arr(@RequestParam String [] ids);
+
+    /**
+     * 返回对象
+     * @param id
+     * @return Product
+     * */
+    @GetMapping(value = "/product")
+    Product product(@RequestParam Long id);
 }
