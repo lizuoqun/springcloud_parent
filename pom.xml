@@ -18,6 +18,7 @@
         <module>fegin_pay</module>
         <module>hystrix_product</module>
         <module>Hystrix_Dashboard</module>
+        <module>gateway</module>
     </modules>
 
     <parent>

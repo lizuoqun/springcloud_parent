@@ -1,0 +1,25 @@
+server:
+  port: 7979
+
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: GATEWAY
+    gateway:
+      routes:
+        - id: user
+          uri: http://localhost:8888
+          predicates:
+            - Path=/getUser
+
+        - id: order
+          uri: http://localhost:9999
+          predicates:
+            - Path=/order
+
+

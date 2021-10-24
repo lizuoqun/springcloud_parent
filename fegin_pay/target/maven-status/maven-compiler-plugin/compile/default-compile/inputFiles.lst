@@ -1,3 +1,6 @@
 F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\PayApplication.java
-F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\controller\payController.java
+F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\feginclient\HystrixService.java
+F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\entity\Product.java
+F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\controller\PayController.java
 F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\feginclient\ProductClient.java
+F:\学习课程\Java系列\SpringBoot微服务\SpringBootWorkBranch\springcloud_parent\fegin_pay\src\main\java\com\lzq\feginclient\HystrixFeign.java
