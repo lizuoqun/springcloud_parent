@@ -19,6 +19,8 @@
         <module>hystrix_product</module>
         <module>Hystrix_Dashboard</module>
         <module>gateway</module>
+        <module>config_client</module>
+        <module>config_server</module>
     </modules>
 
     <parent>
