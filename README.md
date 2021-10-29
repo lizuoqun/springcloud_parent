@@ -7,3 +7,4 @@
 - 负载均衡：Ribbon、OpenFeign
 - 服务熔断：Hystrix
 - 服务网关：Gateway
+- 统一配置中心：ConfigServer
